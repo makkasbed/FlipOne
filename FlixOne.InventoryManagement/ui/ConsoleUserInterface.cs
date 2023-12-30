@@ -1,4 +1,4 @@
-using FlixOne.InventoryManagemementClient.interfaces;
+using FlixOne.InventoryManagemement.interfaces;
 
 namespace FlixOne.InventoryManagemementClient.ui;
 

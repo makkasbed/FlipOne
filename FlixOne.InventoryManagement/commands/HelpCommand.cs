@@ -1,8 +1,8 @@
-using FlixOne.InventoryManagemementClient.interfaces;
+using FlixOne.InventoryManagemement.interfaces;
 
 namespace FlixOne.InventoryManagemementClient.commands;
 
-internal class HelpCommand : NonTerminatingCommand {
+public class HelpCommand : NonTerminatingCommand {
     public HelpCommand(IUserInterface userInterface) : base(userInterface)
     {
     }

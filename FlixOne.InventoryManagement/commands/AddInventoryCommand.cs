@@ -1,4 +1,4 @@
-using FlixOne.InventoryManagemementClient.interfaces;
+using FlixOne.InventoryManagemement.interfaces;
 
 namespace FlixOne.InventoryManagemementClient.commands;
 
@@ -6,7 +6,7 @@ public class AddInventoryCommand : InventoryCommand, IParameterizedCommand
 {
     public string InventoryName {get; private set;}
 
-    public AddInventoryCommand() : base(commandIsTerminating:true)
+    public AddInventoryCommand(IUserInterface userInterface) : base(commandIsTerminating:true)
     {
     }
 

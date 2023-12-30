@@ -1,4 +1,4 @@
-namespace FlixOne.InventoryManagemementClient.interfaces;
+namespace FlixOne.InventoryManagemement.interfaces;
 
 public interface IParameterizedCommand {
     bool GetParameters();

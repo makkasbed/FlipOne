@@ -1,8 +1,8 @@
-using FlixOne.InventoryManagemementClient.interfaces;
+using FlixOne.InventoryManagemement.interfaces;
 
 namespace FlixOne.InventoryManagemementClient.commands;
 
-internal class QuitCommand : InventoryCommand
+public class QuitCommand : InventoryCommand
 {
     public QuitCommand(IUserInterface userInterface) : base(true, _userInterface:userInterface)
     {
